@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #1b5e20;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.bio {
+    margin-top: 25px;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.bio h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.bio p {
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+.materi {
+    margin-top: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.materi h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+
+.materi p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.dokumentasi {
+    margin-top: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.dokumentasi h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #2e7d32;
+}
+
+.dokumentasi p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.dokumentasi-pic {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #2e7d32;
+}
+
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 16px;
+}
